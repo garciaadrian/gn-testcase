@@ -1,0 +1,6 @@
+group("root") {
+  public_deps = [
+    "//core",
+    "//cpu"
+  ]
+}

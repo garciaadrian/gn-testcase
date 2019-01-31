@@ -1,0 +1,9 @@
+executable("core") {
+  sources = [
+    "main.cc"
+  ]
+
+  deps = [
+    "//cpu"
+  ]
+}

@@ -1,0 +1,6 @@
+import("//build/config/precompiled_header.gni")
+buildconfig = "//build/config/BUILDCONFIG.gn"
+
+default_args = {
+  is_clang=true
+}

@@ -1,0 +1,6 @@
+static_library("cpu") {
+  sources = [
+    "cpu.cc",
+    "cpu.hpp"
+  ]
+}
